@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+
+    background: rgb(27,27,27);
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(pic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: red;
+    font-size: 35px;
+    font-size: Arial;
+    padding-left: 40px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    color: gold;
+    width: 800px;
+    float: right;
+    height: 70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: azure;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 85px;
+}
+
+.card {
+    background: white;
+    width: 270px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 15px 15px;
+}
+
+.card-image{
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.car-1{
+    background-image: url(https://d3jlwjv6gmyigl.cloudfront.net/images/2019/11/school1.jpg);
+}
+
+.car-2{
+    background-image: url(https://www.collegechalo.com/news/wp-content/uploads/2021/07/NIT-Andhra-Pradesh1.jpg);
+}
+
+.car-3{
+    background-image: url(pic2.jpg.crdownload);
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: orangered;
+    color:white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
